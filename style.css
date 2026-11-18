@@ -368,3 +368,36 @@ body {
     font-size: 12px;
     border-radius: 4px;
 }
+
+/* FOOTER SECTION */
+
+.footer {
+    background-color: #f8f5ee;
+    padding: 55px 66px;
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.footer-logo {
+    color: #6045e8;
+    font-size: 23px;
+    font-weight: bold;
+}
+
+.footer-column {
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+}
+
+.footer-column h3 {
+    font-size: 13px;
+    margin-bottom: 5px;
+}
+
+.footer-column a {
+    text-decoration: none;
+    color: #555;
+    font-size: 11px;
+}
