@@ -243,3 +243,128 @@ body {
     line-height: 1.6;
     color: #555;
 }
+
+/* TESTIMONIAL SECTION */
+
+.testimonial {
+    background-color: #f8f5ee;
+    padding: 60px 66px;
+    text-align: center;
+}
+
+.testimonial h2 {
+    font-size: 25px;
+    margin-bottom: 35px;
+}
+
+.testimonial-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 45px;
+    max-width: 750px;
+    margin: 0 auto 30px;
+}
+
+.testimonial-image {
+    width: 130px;
+    height: 130px;
+    flex-shrink: 0;
+}
+
+.testimonial-image img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.testimonial-text {
+    text-align: left;
+    max-width: 480px;
+}
+
+.quote {
+    font-size: 13px;
+    line-height: 1.8;
+    margin-bottom: 20px;
+}
+
+.testimonial-text h3 {
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.occupation {
+    font-size: 11px;
+    color: #666;
+}
+
+.join-btn {
+    display: inline-block;
+    background-color: #6045e8;
+    color: white;
+    text-decoration: none;
+    padding: 12px 25px;
+    font-size: 12px;
+    border-radius: 4px;
+}
+
+    /* COMMUNITY CTA SECTION */
+
+.community {
+    padding: 65px 66px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+    background-color: white;
+}
+
+.community-images {
+    display: flex;
+    align-items: center;
+}
+
+.community-images img {
+    width: 105px;
+    height: 105px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid white;
+    margin-left: -15px;
+}
+
+.community-images img:first-child {
+    margin-left: 0;
+}
+
+.community-content {
+    max-width: 470px;
+}
+
+.community-content h2 {
+    font-size: 28px;
+    line-height: 1.4;
+    margin-bottom: 15px;
+}
+
+.community-content h2 span {
+    color: #6045e8;
+}
+
+.community-content p {
+    font-size: 12px;
+    line-height: 1.7;
+    margin-bottom: 20px;
+}
+
+.community-btn {
+    display: inline-block;
+    background-color: #6045e8;
+    color: white;
+    text-decoration: none;
+    padding: 12px 22px;
+    font-size: 12px;
+    border-radius: 4px;
+}
