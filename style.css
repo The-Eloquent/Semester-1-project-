@@ -1,1 +1,132 @@
+/* GENERAL STYLES */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #111111;
+}
+
+
+/* NAVIGATION */
+
+.navbar {
+    height: 99px;
+    display: flex;
+    align-items: center;
+    padding: 0 66px;
+    background-color: white;
+}
+
+
+/* LOGO */
+
+.logo {
+    color: #5d43e8;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+
+/* NAV LINKS */
+
+.nav-links {
+    display: flex;
+    gap: 28px;
+    margin-left: 200px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #111111;
+    font-size: 11px;
+}
+
+
+/* NAV BUTTONS */
+
+.nav-buttons {
+    display: flex;
+    gap: 12px;
+    margin-left: auto;
+}
+
+.nav-buttons a {
+    text-decoration: none;
+    font-size: 12px;
+    padding: 11px 28px;
+    border-radius: 4px;
+}
+
+.login-btn {
+    color: #111111;
+    border: 1px solid #b8b0e8;
+}
+
+.signup-btn {
+    color: white;
+    background-color: #6045e8;
+}
+
+
+/* HERO SECTION */
+
+.hero {
+    height: 483px;
+
+    background-image:
+        linear-gradient(
+            rgba(0, 0, 0, 0.55),
+            rgba(0, 0, 0, 0.55)
+        ),
+        url("images/hero.jpg");
+
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
+    align-items: center;
+}
+
+
+/* HERO CONTENT */
+
+.hero-content {
+    margin-left: 132px;
+    width: 520px;
+    color: white;
+}
+
+.hero-content h1 {
+    font-size: 27px;
+    line-height: 1.45;
+    margin-bottom: 15px;
+}
+
+.hero-content p {
+    font-size: 13px;
+    line-height: 1.6;
+    margin-bottom: 25px;
+    max-width: 430px;
+}
+
+
+/* GET STARTED BUTTON */
+
+.primary-btn {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    background-color: #6045e8;
+
+    font-size: 11px;
+    padding: 12px 17px;
+
+    border-radius: 4px;
+  }
+
 
